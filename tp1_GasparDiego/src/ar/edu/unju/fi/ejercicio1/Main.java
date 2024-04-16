@@ -3,6 +3,8 @@ package ar.edu.unju.fi.ejercicio1;
 import java.util.Scanner;
 
 public class Main {
+	
+	//metodo para calcular el promedio de 5 variables dadas por el usuario por consola
 
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
@@ -18,7 +20,7 @@ public class Main {
 		int var5 = teclado.nextInt();
 		int promedio = (var1 + var2 + var3 + var4 + var5) / 5;
 		System.out.println("el promedio de: " + var1 + "," + var2  + "," + var3  + "," + var4  + "," + var5 + " es: " + promedio);
-		
+		teclado.close();
 	}
 
 }
