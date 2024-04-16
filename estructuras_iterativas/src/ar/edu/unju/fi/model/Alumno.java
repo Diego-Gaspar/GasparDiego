@@ -15,8 +15,6 @@ public class Alumno {
 		this.apellido = apellido;
 		this.nombre = nombre;
 	}
-	
-	 
 
 	@Override
 	public String toString() {
